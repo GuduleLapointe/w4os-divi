@@ -3,7 +3,7 @@
 Plugin Name: W4OS - Divi Builder modules"
 Plugin URI:  https://w4os.org
 Description: Divi Builder modules for W4OS plugin
-Version:     1.0.0
+Version:     1.0.1
 Author:      Speculoos World
 Author URI:  https://speculoos.world
 License:     GPL2

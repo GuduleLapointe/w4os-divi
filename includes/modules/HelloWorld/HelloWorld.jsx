@@ -13,9 +13,21 @@ class HelloWorld extends Component {
     const Content = this.props.content;
 
     return (
-      <h1>
-        <Content/>
-      </h1>
+      <div class="gridinfo-divi-wrapper">
+        <h1>
+          <Content/>
+        </h1>
+        <table class="gridinfo">
+          <tr>
+            <td class="gridvar">Grid name</td>
+            <td class="gridvalue">Example Grid</td>
+          </tr>
+          <tr>
+            <td class="gridvar">Login URI</td>
+            <td class="gridvalue">example.org:8002</td>
+          </tr>
+        </table>
+      </div>
     );
   }
 }
